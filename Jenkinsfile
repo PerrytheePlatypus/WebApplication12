@@ -4,7 +4,7 @@ pipeline {
                         environment {
                             AZURE_CREDENTIALS_ID = 'azure-service-principal-01'
                             RESOURCE_GROUP = 'rg-jenkins'
-                            APP_SERVICE_NAME = 'webapijenkin022025'
+                            APP_SERVICE_NAME = 'webapijenkin02202505'
                             TERRAFORM_VERSION = '1.11.3'
                             TERRAFORM_DIR = '%WORKSPACE%\\terraform'
                             TERRAFORM_PATH = '%WORKSPACE%\\terraform\\terraform.exe'
