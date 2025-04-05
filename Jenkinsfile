@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         AZURE_CREDENTIALS_ID = '05-10-2025-adi-april'
-        RESOURCE_GROUP = 'rg-040425'
-        APP_SERVICE_NAME = 'webapijenkins-040425'
-        GIT_REPO_URL = 'https://github.com/Atishay-Jain01/terraform_in_jenkins.git'
+        RESOURCE_GROUP = 'rg-jenkins'
+        APP_SERVICE_NAME = 'webapijenkin02202505'
+        GIT_REPO_URL = 'https://github.com/PerrytheePlatypus/WebApplication12.git'
         GIT_BRANCH = 'main'
         TERRAFORM_VERSION = '1.7.5'  // Specify the Terraform version you want to use
     }
